@@ -5,7 +5,6 @@ function Content({ results }) {
       {results.map((result) => {
         return <Thumbnail key={result.id} result={result} />;
       })}
-      ;
     </div>
   );
 }
